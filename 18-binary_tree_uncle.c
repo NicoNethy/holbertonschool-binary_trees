@@ -2,7 +2,7 @@
 
 /**
  * binary_tree_uncle - my uncle is a tree
- * @tree: my uncle
+ * @node: my uncle
  * Return: is he?
 */
 
