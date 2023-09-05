@@ -1,9 +1,9 @@
 #include "binary_trees.h"
 
 /**
- *binary_tree_postorder- a type of tree traversal that follows the Root-Left-Right policy 
- *@tree: tree structure 
- Return: check on tree structure
+ *binary_tree_postorder- a type of tree traversal
+ *@tree: tree structure
+ *Return: check on tree structure
 */
 
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
