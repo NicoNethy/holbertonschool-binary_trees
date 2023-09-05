@@ -6,15 +6,13 @@
  *Return: deleted node
 */
 
-void binary_tree_delete(binary_tree_t *tree);
+void binary_tree_delete(binary_tree_t *tree)
 {
-    binary_tree_t *root;
-
-    if(root == NULL)
+    if(tree == NULL)
         return;
     
-    binary_tree_delete(root->left);
-    binary_tree_delete(root->right);
-    free(root);
+    binary_tree_delete(tree->left);
+    binary_tree_delete(tree->right);
+    free(tree);
     
 }
