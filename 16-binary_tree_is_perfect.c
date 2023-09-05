@@ -3,8 +3,13 @@
 #include "14-binary_tree_balance.c"
 #include "15-binary_tree_is_full.c"
 
-int
-binary_tree_is_perfect(const binary_tree_t *tree)
+/**
+ *binary_tree_is_perfect - the binary tree is very perfect
+ *@tree: the tree
+ *Return: binary tree perfect or not
+ */
+
+int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 	if (!tree)
 		return (0);

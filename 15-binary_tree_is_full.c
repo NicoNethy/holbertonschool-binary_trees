@@ -3,7 +3,7 @@
 /**
  *binary_tree_is_full - finding if the tree is full
  *@tree: tree structure 
- Return: Binary tree full or not
+ *Return: Binary tree full or not
 */
 
 int binary_tree_is_full(const binary_tree_t *tree)
