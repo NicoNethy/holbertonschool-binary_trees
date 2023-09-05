@@ -3,6 +3,7 @@
 /**
  *binary_tree_postorder- a type of tree traversal
  *@tree: tree structure
+ *@func: the func
  *Return: check on tree structure
 */
 
